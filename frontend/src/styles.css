@@ -5,12 +5,12 @@
    Palette lives in the variables below; change them here to re-theme.
    ========================================================================== */
 :root{
-  --blue-50:#eff6ff;
-  --blue-100:#dbeafe;
-  --blue-200:#bfdbfe;
-  --blue-500:#3b82f6;
-  --blue-600:#2563eb;
-  --blue-700:#1d4ed8;
+  --blue-50:#fff7ed;
+  --blue-100:#ffedd5;
+  --blue-200:#fed7aa;
+  --blue-500:#f97316;
+  --blue-600:#ea580c;
+  --blue-700:#c2410c;
 
   --ink:#0f172a;
   --text:#334155;
@@ -31,7 +31,7 @@
   --shadow-sm:0 1px 2px rgba(15,23,42,.05);
   --shadow-md:0 4px 16px rgba(15,23,42,.06);
   --shadow-lg:0 24px 64px rgba(15,23,42,.22);
-  --focus-ring:0 0 0 3px rgba(37,99,235,.15);
+  --focus-ring:0 0 0 3px rgba(234,88,12,.18);
 
   --sidebar-w:248px;
 
@@ -57,7 +57,7 @@ button:disabled{opacity:.6;cursor:not-allowed}
 /* ---- Sidebar ------------------------------------------------------------- */
 .sidebar{position:fixed;inset:0 auto 0 0;width:var(--sidebar-w);background:var(--surface);border-right:1px solid var(--line);color:var(--text);padding:24px 16px;display:flex;flex-direction:column;z-index:3}
 .brand{display:flex;align-items:center;gap:12px;padding:0 8px 32px}
-.brand-icon{width:42px;height:42px;border-radius:12px;background:linear-gradient(145deg,var(--blue-500),var(--blue-700));display:grid;place-items:center;color:#fff;box-shadow:0 6px 16px rgba(37,99,235,.3);flex:none}
+.brand-icon{width:42px;height:42px;border-radius:12px;background:linear-gradient(145deg,var(--blue-500),var(--blue-700));display:grid;place-items:center;color:#fff;box-shadow:0 6px 16px rgba(234,88,12,.3);flex:none}
 .brand strong{display:block;font:800 18px/1.2 Manrope,sans-serif;letter-spacing:-.4px;color:var(--ink)}
 .brand span{display:block;font-size:10px;font-weight:600;letter-spacing:1.4px;color:var(--subtle);margin-top:3px}
 .side-label{font-size:11px;font-weight:700;letter-spacing:1.4px;color:var(--subtle);padding:0 12px 10px}
@@ -94,8 +94,8 @@ button:disabled{opacity:.6;cursor:not-allowed}
 
 /* ---- Buttons ------------------------------------------------------------- */
 .primary-btn,.secondary-btn{border:0;border-radius:10px;padding:11px 18px;display:inline-flex;align-items:center;justify-content:center;gap:8px;font-size:13px;font-weight:600;white-space:nowrap;transition:background .15s,box-shadow .15s,transform .05s}
-.primary-btn{background:#2563eb;color:#fff;box-shadow:0 4px 12px rgba(37,99,235,.25)}
-.primary-btn:hover{background:#1d4ed8}
+.primary-btn{background:#c2410c;color:#fff;box-shadow:0 4px 12px rgba(234,88,12,.25)}
+.primary-btn:hover{background:#c2410c}
 .primary-btn:active{transform:translateY(1px)}
 .secondary-btn{background:var(--surface);color:var(--text);box-shadow:inset 0 0 0 1px var(--line)}
 .secondary-btn:hover{background:#f1f5f9}
@@ -105,7 +105,7 @@ button:disabled{opacity:.6;cursor:not-allowed}
 .stat-card{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:22px;display:flex;gap:16px;align-items:center;min-height:112px;box-shadow:var(--shadow-sm)}
 .stat-icon{width:46px;height:46px;display:grid;place-items:center;border-radius:12px;flex:none}
 .stat-icon.purple{background:var(--blue-50);color:var(--blue-600)}
-.stat-icon.blue{background:#e0f2fe;color:#0284c7}
+.stat-icon.blue{background:#fef3c7;color:#d97706}
 .stat-icon.green{background:var(--success-bg);color:var(--success)}
 .stat-card span,.stat-card small{display:block;color:var(--muted);font-size:13px}
 .stat-card strong{display:block;font:800 28px/1.1 Manrope,sans-serif;margin:5px 0 3px;letter-spacing:-.6px;color:var(--ink)}
@@ -140,7 +140,7 @@ th:last-child,td:last-child{padding-right:24px}
 td{padding:16px;border-bottom:1px solid var(--line-soft);font-size:13px;color:var(--text);vertical-align:middle}
 tbody tr{transition:background .12s}
 tbody tr:last-child td{border-bottom:0}
-tbody tr:hover{background:#f5f9ff}
+tbody tr:hover{background:#fffaf5}
 .student-cell{display:flex;align-items:center;gap:12px}
 .student-avatar{width:38px;height:38px;display:grid;place-items:center;border-radius:10px;background:var(--blue-50);color:var(--blue-700);font-size:12px;font-weight:800;flex:none}
 .student-cell strong,.student-cell span{display:flex;align-items:center;gap:6px}
